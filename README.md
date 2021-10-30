@@ -1,7 +1,7 @@
 # World Weather Analysis
 
 ## Purpose
-Our initial analysis was to recommend travelers ideal hotels based on one's weather preferences. an API call to OpenWeatherMap was used to collect information on weather conditions around the world, then this information was filtered and displayed to fit customer preferences. In this analysis we want to filter our data to identify nearby hotels. From this data frame four nearby cities are chosen to create a round trip with. Using the google maps directions API,  a travel route between these cities is created along with markers with popup information about each city.
+The initial analysis was to recommend travelers ideal hotels based on one's weather preferences. an API call to OpenWeatherMap was used to collect information on weather conditions around the world, then this information was filtered and displayed to fit customer preferences. In this analysis we want to filter our data to identify nearby hotels. From this data frame four nearby cities are chosen to create a round trip with. Using the google maps directions API,  a travel route between these cities is created along with markers with popup information about each city.
 
 ## Breakdown of Analysis
 This analysis is completed in three parts. The first part of the analysis is to generate 2,000 random latitude and longitudes. Then an API call is performed with OpenWeatherMap to retrieve current weather information and add it to a data frame.
